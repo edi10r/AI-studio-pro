@@ -272,5 +272,31 @@ The final result should be a clean, reliable, and easy-to-install **AI Studio Pr
 Do not remove or break any existing AI Studio Pro features. Preserve the existing UI and functionality while improving the project's installation process, environment configuration, security, and documentation.
 
 
+## 📄 License
 
+Distributed under the MIT License. See `LICENSE` for more information.
+
+Copyright (c) 2026 **edi10r**. All rights reserved.
+
+
+---
+
+## 📺 YouTube Channel & Video Guides
+
+Subscribe to my YouTube channel for feature walk-throughs, video editing tutorials, and development updates for **UltimateCut Pro**!
+
+<p align="left">
+  <a href="https://www.youtube.com/@unknown-3amx" target="_blank">
+    <img src="https://img.shields.io/badge/Subscribe_on_YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Subscribe on YouTube" />
+  </a>
+</p>
+
+<div align="center">
+  <a href="https://www.youtube.com/@unknown-3amx" target="_blank">
+    <img src="https://github.com/user-attachments/assets/b331d652-d8c5-41f0-8f1d-0a492dedb519" alt="YouTube Channel Preview" width="100%" />
+  </a>
+  <p><i>Click the image above to visit the channel and watch full video guides!</i></p>
+</div>
+
+---
 

@@ -1,12 +1,14 @@
 # ⚡ AI Studio Pro
 
-<p align="center">
-  <img src="https://img.shields.io/github/license/edi10r/ai-studio-pro?style=for-the-badge&color=blue" alt="License">
-  <img src="https://img.shields.io/github/stars/edi10r/ai-studio-pro?style=for-the-badge&color=gold" alt="Stars">
-  <img src="https://img.shields.io/github/forks/edi10r/ai-studio-pro?style=for-the-badge&color=orange" alt="Forks">
-  <img src="https://img.shields.io/github/issues/edi10r/ai-studio-pro?style=for-the-badge&color=red" alt="Issues">
-  <img src="https://img.shields.io/badge/Maintained%3F-Yes-brightgreen?style=for-the-badge" alt="Maintained">
-</p>
+<div align="center">
+
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Version](https://img.shields.io/badge/version-1.0.0-brightgreen.svg)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
+
+</div>
 
 <p align="center">
   <b>The ultimate all-in-one studio suite for creators and developers: AI Voice Generation, Text Enhancement with Code Diffing, and AI Image Generation with dynamic token limits.</b>

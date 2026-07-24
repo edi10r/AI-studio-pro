@@ -68,18 +68,208 @@
 
 ---
 
-## 🚀 Installation & Local Setup Guide
+# AI Studio Pro — GitHub Project Setup & Installation Prompt
 
-### 📋 Prerequisites
-Before getting started, make sure you have the following installed on your machine:
-* **Node.js** (v18.0.0 or higher recommended)
-* **npm** (v9.0.0 or higher) or yarn / pnpm
+I have created an AI application called **AI Studio Pro**. The application is an AI-powered creative platform that includes features such as AI voice generation from prompts, text-to-speech, AI image generation, text-based AI features, and other AI-powered creative tools.
 
-### Step 1: Clone or Export the Codebase
-Open your terminal and run:
+I want you to prepare and configure this project so that it can be easily installed and run locally from its GitHub repository.
+
+## Technology Stack
+
+The project uses:
+
+* React 19
+* Vite
+* Express
+* TypeScript
+* Tailwind CSS v4
+* Motion
+* Google Gemini AI / `@google/genai` SDK
+* Lucide Icons
+* Node.js
+* npm
+
+## Required Prerequisites
+
+The user should have:
+
+* Node.js v18.0.0 or newer
+* npm v9.0.0 or newer
+* Git (recommended for cloning the repository)
+
+## Installation Process
+
+The project should support the following installation process.
+
+### 1. Clone the Repository
+
+The user should be able to clone the GitHub repository using:
+
 ```bash
-git clone [https://github.com/edi10r/ai-studio-pro.git](https://github.com/edi10r/ai-studio-pro.git)
+git clone <your-repository-url>
 cd ai-studio-pro
+```
+
+If the user downloaded the project as a ZIP file, they should extract it and open a terminal inside the project folder.
+
+### 2. Install Dependencies
+
+Install all required dependencies with:
+
+```bash
+npm install
+```
+
+Make sure all required packages for React, Vite, Express, Tailwind CSS, Motion, Google Gemini AI, Lucide Icons, and other project dependencies are correctly defined in `package.json`.
+
+### 3. Configure Environment Variables
+
+The project must include a `.env.example` file.
+
+The user should create their local `.env` file by copying the example:
+
+```bash
+cp .env.example .env
+```
+
+The `.env` file should contain:
+
+```env
+GEMINI_API_KEY="your_gemini_api_key_here"
+APP_URL="http://localhost:3000"
+```
+
+The `GEMINI_API_KEY` must be used securely on the server side for Gemini AI features, including:
+
+* AI text generation
+* AI voice / text-to-speech features
+* AI image prompting
+* Other Gemini-powered features
+
+Never expose the Gemini API key directly in the browser or client-side JavaScript.
+
+The `APP_URL` should default to:
+
+```env
+APP_URL="http://localhost:3000"
+```
+
+The application should obtain the Gemini API key from environment variables and should not hard-code API keys anywhere in the source code.
+
+Users can obtain a Gemini API key through Google AI Studio.
+
+### 4. Start the Development Server
+
+The application should use an integrated Express + Vite development server.
+
+Run:
+
+```bash
+npm run dev
+```
+
+After starting the server, the user should open:
+
+```text
+http://localhost:3000
+```
+
+The development environment should support hot reloading.
+
+### 5. Build for Production
+
+The project should provide a production build command:
+
+```bash
+npm run build
+```
+
+This should:
+
+1. Build the Vite frontend.
+2. Compile or bundle the TypeScript backend server.
+3. Prepare the application for production deployment.
+
+After building, the production server should be started with:
+
+```bash
+npm start
+```
+
+## Important Requirements
+
+Please ensure that:
+
+1. The project contains a complete and correct `package.json`.
+2. All required dependencies are included.
+3. The project contains a `.env.example` file.
+4. The actual `.env` file is included in `.gitignore`.
+5. API keys and secrets are never committed to GitHub.
+6. Gemini API requests that require secret credentials are handled securely on the server.
+7. `npm install` successfully installs all dependencies.
+8. `npm run dev` starts the local development server.
+9. The application is available at `http://localhost:3000` during development.
+10. `npm run build` successfully creates the production build.
+11. `npm start` successfully launches the production server.
+12. The project should be compatible with Node.js v18 or newer.
+13. The README.md file should contain clear installation, configuration, development, and production instructions.
+
+## Expected README Installation Instructions
+
+Create or update the project's `README.md` with a simple installation guide containing:
+
+### Prerequisites
+
+* Node.js v18+
+* npm v9+
+* Git
+* A Google Gemini API key
+
+### Installation
+
+```bash
+git clone <your-repository-url>
+cd ai-studio-pro
+npm install
+```
+
+### Environment Configuration
+
+```bash
+cp .env.example .env
+```
+
+Then configure:
+
+```env
+GEMINI_API_KEY="your_gemini_api_key_here"
+APP_URL="http://localhost:3000"
+```
+
+### Run Development Mode
+
+```bash
+npm run dev
+```
+
+Open:
+
+```text
+http://localhost:3000
+```
+
+### Production Build
+
+```bash
+npm run build
+npm start
+```
+
+## Final Goal
+
+The final result should be a clean, reliable, and easy-to-install **AI Studio Pro** GitHub project. A new user should be able to clone or download the project, install dependencies, add their Gemini API key, run one development command, and immediately access the application locally.
+
+Do not remove or break any existing AI Studio Pro features. Preserve the existing UI and functionality while improving the project's installation process, environment configuration, security, and documentation.
 
 
 

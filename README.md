@@ -80,3 +80,47 @@ Open your terminal and run:
 ```bash
 git clone [https://github.com/edi10r/ai-studio-pro.git](https://github.com/edi10r/ai-studio-pro.git)
 cd ai-studio-pro
+
+
+
+
+Step 2: Install All Dependencies (npm install)
+Run this command inside the project folder to install React 19, Vite, Express, Tailwind CSS, Gemini AI SDK, and all required libraries:
+
+Bash
+npm install
+💡 Troubleshooting npm install Errors:
+
+If you get peer dependency warnings: Run npm install --legacy-peer-deps
+
+If you get permission errors (Mac/Linux): Run sudo npm install
+
+If npm is not recognized: Restart your computer or terminal after installing Node.js.
+
+Step 3: Configure Environment Variables (.env)
+The app requires a free Gemini API key to run AI Voice, Text, and Image features.
+
+Create a copy of .env.example named .env in the root folder:
+
+Bash
+cp .env.example .env
+Open the newly created .env file in your code editor.
+
+Replace the placeholder with your actual Gemini API key (Get a free key from Google AI Studio):
+
+Code snippet
+# Required Gemini API key for Voice, Text, and Image generation
+GEMINI_API_KEY="your_actual_gemini_api_key_here"
+
+# Application URL (default for local development)
+APP_URL="http://localhost:3000"
+Step 4: Start the Development Server
+To start the live interactive application with hot-reloading:
+
+Bash
+npm run dev
+Watch the terminal output. You will see a URL generated (usually http://localhost:3000).
+
+Open your web browser and go to http://localhost:3000 to start using the app!
+
+Keep the terminal window open while using the app. Press Ctrl + C in the terminal whenever you want to stop the server.

@@ -1,0 +1,6 @@
+{
+  "name": "AI Studio Pro",
+  "description": "All-in-One AI Developer & Creator Platform featuring AI Voice Generation, Text Enhancement & Diffing, and AI Image Studio.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
